@@ -1,0 +1,65 @@
+.title {
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    background-color: #111;
+    border-bottom: 2px solid rgba(51,51,51,.25);
+    font-size: 50px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex; 
+    width: 100%;
+    z-index: 300000;
+    color: white;
+    
+ }
+
+ .rain{
+    width:80px;
+ }
+
+ .myweb{
+    margin-left: 300px;
+ }
+
+ .image{
+    
+ }
+
+ .godzillafront{
+    z-index: 1;
+    width: 60%;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+ }
+
+ .godzillaback{
+    z-index: 0;
+    filter:blur(4px)
+
+ }
+
+.hobbies{ 
+    display: flex;
+}
+
+.hobbyContent{
+    display: flex;
+
+}
+
+.hobbyText{
+    width: 150px;
+    padding: auto 10px;
+}
+
+.Iam{
+   left: 200px;
+}
+
+.whoIam{
+   display: flex;
+}
